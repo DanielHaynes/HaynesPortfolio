@@ -14,13 +14,24 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .carousel-item {
-    height: 45vh;
-    min-height: 250px;
+    height: 60vh;
     background: no-repeat center center scroll;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
+}
+
+.carousel-inner img {
+    height: 100%;
+}
+
+.black-arrow-prev {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+
+.black-arrow-next {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23000' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
 }
 
 hr.star-dark, hr.star-light {
@@ -52,7 +63,7 @@ hr.star-light {
 
     hr.star-light:after {
         color: #fff;
-        background-color: slategrey;
+        background-color: black;
     }
 
 hr.star-dark {
@@ -339,12 +350,12 @@ form .row:first-child .floating-label-form-group {
 .footer {
     padding-top: 5rem;
     padding-bottom: 5rem;
-    background-color: slategrey;
+    background-color: gray;
     color: #fff;
 }
 
 .copyright {
-    background-color: slategrey;
+    background-color: black;
 }
 
 a {
@@ -360,11 +371,11 @@ a {
 }
 
 .bg-primary {
-    background-color: slategrey !important;
+    background-color: black !important;
 }
 
 .bg-secondary {
-    background-color: slategrey !important;
+    background-color: black !important;
 }
 
 .text-primary {
