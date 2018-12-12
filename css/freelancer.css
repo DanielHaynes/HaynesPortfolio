@@ -346,9 +346,12 @@ a:focus, a:hover, a:active {
 .btn {
   border-width: 2px;
 }
-
+/*
+    f5f5dc
+    #18BC9C
+*/
 .bg-primary {
-  background-color: #18BC9C !important;
+    background-color: coral !important;
 }
 
 .bg-secondary {
