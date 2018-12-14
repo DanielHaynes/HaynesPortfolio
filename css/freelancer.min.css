@@ -27,7 +27,7 @@ h1, h2, h3, h4, h5, h6 {
     }
 
 button.bg-primary:hover {
-    background-color: #ffaf00 !important;
+    background-color: #C00000 !important;
 }
 .carousel-item {
     height: 60vh;
@@ -78,16 +78,16 @@ hr.star-light {
 }
 
     hr.star-light:after {
-        color: #ffaf00;
-        background-color: #fd4445;
+        color: #C00000;
+        background-color: #6a6a6a;
     }
 
 hr.star-dark {
-    border-color: #01395e;
+    border-color: #000000;
 }
 
     hr.star-dark:after {
-        color: #fd4445;
+        color: #c00000;
         background-color: #ffffff;
     }
 
@@ -141,7 +141,7 @@ section {
 }
 
     #mainNav .navbar-brand {
-        color: #0091cf;
+        color: #ffffff;
     }
 
     #mainNav .navbar-nav {
@@ -150,19 +150,19 @@ section {
     }
 
         #mainNav .navbar-nav li.nav-item a.nav-link {
-            color: #fd4445;
+            color: #ffffff;
         }
 
             #mainNav .navbar-nav li.nav-item a.nav-link:hover {
-                color: #0091cf;
+                color: #C00000;
             }
 
             #mainNav .navbar-nav li.nav-item a.nav-link:active, #mainNav .navbar-nav li.nav-item a.nav-link:focus {
-                color: #0091cf;
+                color: #ffffff;
             }
 
             #mainNav .navbar-nav li.nav-item a.nav-link.active {
-                color: #ffaf00;
+                color: #C00000;
             }
 
     #mainNav .navbar-toggler {
@@ -190,12 +190,12 @@ section {
 
             #mainNav .navbar-nav > li.nav-item > a.nav-link.active {
                 color: #fff;
-                background-color: #ffaf00;
+                background-color: #C00000;
             }
 
                 #mainNav .navbar-nav > li.nav-item > a.nav-link.active:active, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:focus, #mainNav .navbar-nav > li.nav-item > a.nav-link.active:hover {
                     color: #fff;
-                    background-color: #ffaf00;
+                    background-color: #C00000;
                 }
 
         #mainNav.navbar-shrink {
@@ -254,7 +254,7 @@ header.masthead {
             -webkit-transition: all ease .5s;
             transition: all ease .5s;
             opacity: 0;
-            background-color: #ffaf00;
+            background-color: #C00000;
         }
 
             .portfolio .portfolio-item .portfolio-item-caption:hover {
@@ -366,7 +366,7 @@ form .row:first-child .floating-label-form-group {
 .footer {
     padding-top: 5rem;
     padding-bottom: 5rem;
-    background-color: #fd4445;
+    background-color: #000000;
     color: #fff;
 }
 
@@ -375,11 +375,11 @@ form .row:first-child .floating-label-form-group {
 }
 
 a {
-    color: #01395e;
+    color: #C00000;
 }
 
     a:active, a:focus, a:hover {
-        color: #0091cf;
+        color: #6a6a6a;
     }
 
 .btn {
@@ -387,11 +387,11 @@ a {
 }
 
 .bg-primary {
-    background-color: #fd4445 !important;
+    background-color: #6A6A6A !important;
 }
 
 .bg-secondary {
-    background-color: #ffffff !important;
+    background-color: #000000 !important;
 }
 
 .text-primary {
@@ -399,17 +399,17 @@ a {
 }
 
 .text-secondary {
-    color: #01395e !important;
+    color: #000000 !important;
 }
 
 .btn-primary {
-    background-color: #01395e;
-    border-color: #01395e;
+    background-color: #6a6a6a;
+    border-color: #6a6a6a;
 }
 
     .btn-primary:active, .btn-primary:focus, .btn-primary:hover {
-        background-color: #ffaf00;
-        border-color: #ffaf00;
+        background-color: #C00000;
+        border-color: #C00000;
     }
 
 .btn-secondary {
